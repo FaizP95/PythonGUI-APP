@@ -4,6 +4,7 @@ from fileinput import filename
 import tkinter as tk 
 from tkinter import Canvas, Frame, filedialog, Text
 import os
+from unittest import TextTestResult
 
 root = tk.Tk()
 apps = []
@@ -27,6 +28,7 @@ def runApps():
     for app in apps:
         os.startfile(app)
 
+TextTestResult
 
 #THIS ALLOWS YOU TO CHANGE THE SIZE OF THE GUI
 canvas = tk.Canvas(root, height=500, width=500, bg= "black")
